@@ -1,0 +1,11 @@
+framework module lightbuzz_bodytracking {
+  umbrella header "lightbuzz_bodytracking.h"
+  export *
+
+  module * { export * }
+}
+
+module lightbuzz_bodytracking.Swift {
+  header "lightbuzz_bodytracking-Swift.h"
+  requires objc
+}

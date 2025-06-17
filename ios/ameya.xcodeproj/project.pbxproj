@@ -1,0 +1,1179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* ameyaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ameyaTests.m */; };
+		0C36F1AE4EE049748F640D41 /* notificationbell.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E7EEA794544F5DB894E273 /* notificationbell.png */; };
+		0C74ACDFEA9A43378C23F6CA /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B58F7C39AF4823AAE58915 /* heart.png */; };
+		0CBFB6EB12C14C6C9EF0D095 /* interthin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5981C16E2746448F8EED3BDB /* interthin.ttf */; };
+		0CC888942F234658B3490D35 /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = A20E99770B4347AA8AA77492 /* mic.png */; };
+		0DDE1A42C6AA4067B8C5AF39 /* saveicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 878C00B26144417F9CA2A75E /* saveicon.png */; };
+		0F6FCF625D55479AA0D8736C /* logouticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C00919982BA41FDA0464104 /* logouticon.png */; };
+		101769CF85514FAA998D232C /* profileselected.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA23A563B8F44CA9CA13BD9 /* profileselected.png */; };
+		1059B585EAF948DF8B47E45A /* galleyblack.png in Resources */ = {isa = PBXBuildFile; fileRef = A7BB97E1CE514240ABEC171E /* galleyblack.png */; };
+		109D6C13EBBF4D2BB9A139C1 /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = F22B85CD6BDD4BA3B6D1D859 /* cup.png */; };
+		131EF820B7E54BB2885CE2DE /* interextrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3727BB4B5E84CB38624A2AA /* interextrabold.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14CD86C7988A4AF6B961CB57 /* newrecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F0701C0DEF4ADB9D8BE164 /* newrecipe.png */; };
+		163B942246DD4C26A3DE7CDD /* servingguide.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ACFF44757640CE927571FF /* servingguide.png */; };
+		1B9B3653C9B647688F195AD9 /* addmyrecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = A10E13EB4D7F4C4B8B28EC11 /* addmyrecipe.png */; };
+		1FA16D2315214937ADD365DB /* intersemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD24A32A0B7F4EB5AF31FF3A /* intersemibold.ttf */; };
+		20054BFB07F1486B88C83154 /* splashon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8A22677B6146F5A8129843 /* splashon.png */; };
+		25E22E645BDE4F18A59B1533 /* food1.png in Resources */ = {isa = PBXBuildFile; fileRef = B43D1456562C41FD93C28751 /* food1.png */; };
+		2B5ACF6548AC44D0B04FECE3 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F5A2FA097484D3A838D27F8 /* remove.png */; };
+		2F84A9059F05410C8F10D866 /* fist.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A968BAB6EA41B19AB066B5 /* fist.png */; };
+		317F47B23B48412BAFEC34DA /* interbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7419E9FA039F4081A20293D5 /* interbold.ttf */; };
+		3E4F459BD02644889C9636B5 /* food2.png in Resources */ = {isa = PBXBuildFile; fileRef = 042369AE7201422E841EFC62 /* food2.png */; };
+		3F288388297D42938A42390C /* interlight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F79F47F5F7A44D19F465D45 /* interlight.ttf */; };
+		3F75D3EA455E4CB4AB2FA4CC /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3136B84F842EA8D6B30F1 /* profile.png */; };
+		47A3AF3A880847B8A85B1D94 /* tsp.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B4235DB87840BC8FE2C71F /* tsp.png */; };
+		484D8DE97AE447BA9F4BE590 /* oz.png in Resources */ = {isa = PBXBuildFile; fileRef = A36B0E01ADF44B85A3D4141E /* oz.png */; };
+		4BE7CF693FB64022AA34B389 /* splashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 06F7DA02E02545E78D937560 /* splashlight.png */; };
+		4C23D85B661044C699E237DC /* termsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CE4A0A79A4B45A8301E8C /* termsicon.png */; };
+		4DE43B880551478E8DEFDEF0 /* rightarrowtransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = B8C0348873E34250B238531C /* rightarrowtransparent.png */; };
+		4EFD873CCC4E4C7ABA7CD5C0 /* accountcreated.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DBE4E3E14AA098FA8A8D /* accountcreated.png */; };
+		505689BB23DF4A88A87480F1 /* statsselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3185B03C449441B7AAE7658B /* statsselected.png */; };
+		52ECC610DB1F4210B87DEFB8 /* removetransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 059845BE5D4D4BDCB831762F /* removetransparent.png */; };
+		532CD11541034F6EB7C0C57B /* movement.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C391F5F6FEC43CBBE2ACABC /* movement.png */; };
+		540AD3B18E544B86997A5586 /* homeselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 177B8C8F2AD440E4BEFBE466 /* homeselected.png */; };
+		55706DA22D1E81CA0034FCF5 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55706DA12D1E81CA0034FCF5 /* BackgroundTaskManager.swift */; };
+		55706DA32D1E81CA0034FCF5 /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55706DA02D1E81CA0034FCF5 /* BackgroundTaskManager.m */; };
+		5759E7D238AE4463BDC19C8E /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 842CB1F413D5433D886E5FE2 /* camera.png */; };
+		5B0E650FD3F44C8A967CC31B /* intermedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30D3DB40F60457CB96CEAD5 /* intermedium.ttf */; };
+		5BC58F248470F75BE5BF9777 /* Pods_ameya_ameyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ADB65BC54C45E39E415401 /* Pods_ameya_ameyaTests.framework */; };
+		5BCED180FEC94CD5B278455D /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = C85DFC5018664CBF8AEC7FCA /* email.png */; };
+		5C24B24E72C14FEC9F51246E /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F8F1CD20404BA9AFF069DE /* watch.png */; };
+		5F65E81FAA9142E7887B280E /* addfood.png in Resources */ = {isa = PBXBuildFile; fileRef = B8947C62E0B043158293887C /* addfood.png */; };
+		61FFD22F1EB5406EBC649FC8 /* palm.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B72B5BC32B44F7A90AA5A9 /* palm.png */; };
+		64AF234EFE004974177EFCE4 /* Pods_ameya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2513463325DABE0B845EB351 /* Pods_ameya.framework */; };
+		6A1D171AB92B43B6800E7DE7 /* interextralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 375171D18AD64B719C159F1D /* interextralight.ttf */; };
+		6B0CECCC03B54F2999728929 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF2683C4A4A24A0BD35E3 /* star.png */; };
+		6C54882E2D93CB2700FED2B5 /* lightbuzz_bodytracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C54882C2D93CB1D00FED2B5 /* lightbuzz_bodytracking.framework */; };
+		6C54882F2D93CB2700FED2B5 /* lightbuzz_bodytracking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C54882C2D93CB1D00FED2B5 /* lightbuzz_bodytracking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C62110D2D2D0D810054B1DF /* HealthSyncEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C62110C2D2D0D810054B1DF /* HealthSyncEventEmitter.m */; };
+		6C7E38B62CF48BE60078E364 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C7E38B52CF48BE60078E364 /* GoogleService-Info.plist */; };
+		6C967A602D65DD0900572EAC /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C967A5F2D65DD0900572EAC /* HealthKitManager.swift */; };
+		6C967A612D65DD0900572EAC /* HealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C967A5E2D65DD0900572EAC /* HealthKitManager.m */; };
+		708B7DDDE24B4CF3A172E199 /* addfoodblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FDEDFCF88142AD87F97A05 /* addfoodblack.png */; };
+		71E0B319441943BABF8ADC08 /* addrecipeweb.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7EC640CE32495B9C230489 /* addrecipeweb.png */; };
+		723E28AAF6F2492295A59D14 /* heartlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B510994846A4E12BBEAE254 /* heartlight.png */; };
+		72CD9D46D9C64711A30132B5 /* uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD37F30D4AE0421AA1254680 /* uparrow.png */; };
+		72F03635B9AA42EA86691B6A /* lockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3068AE432A4840B72A0518 /* lockicon.png */; };
+		7428FE3B596B443AB8B147FE /* glassempty.png in Resources */ = {isa = PBXBuildFile; fileRef = 835AA52A09874738B223FC74 /* glassempty.png */; };
+		756179C4AD61495EBEC436C9 /* searchglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED6768589842D78122C36F /* searchglass.png */; };
+		7DB48A626C284D9B8730E304 /* statsunselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 811F2D893FBA4695ACC8F53E /* statsunselected.png */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83B54510BCB3440795EFCBF9 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C68BF55599CA4214B8D03CAE /* home.png */; };
+		879BE89268D141B2B83DF95B /* heartblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC7D46DD4294E3BA5FF4D25 /* heartblue.png */; };
+		9044A4A454994375A9105445 /* tbsp.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA8445A12EA4723836E0F0F /* tbsp.png */; };
+		9124BB863A8C4ACA9FD47966 /* dashboardlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E10D55C395441E49B549ACC /* dashboardlock.png */; };
+		966AB7B8750B44D6837361FF /* messageselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A340DA2EE648B5B382B711 /* messageselected.png */; };
+		9872B82A904747228A5B0767 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5DA886399440B5A6B6A3E8 /* apple.png */; };
+		9D0C8C3AF4FB44548568C993 /* interregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01458341232405F9A0EC441 /* interregular.ttf */; };
+		9E490C28F93F49FC9339CC98 /* food3.png in Resources */ = {isa = PBXBuildFile; fileRef = FA645520A175405BA50CC85E /* food3.png */; };
+		A525D2410ABD4759AF3FE6FA /* uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 442BDB932A1345D692579268 /* uparrow.png */; };
+		A5674445A7474E8391768D96 /* eyeoff.png in Resources */ = {isa = PBXBuildFile; fileRef = FD04BDF532DC4516AB5C4051 /* eyeoff.png */; };
+		A802114B60B7988EDD88DECD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 84460B34DE9F6F91787BA5F9 /* PrivacyInfo.xcprivacy */; };
+		AAFC777019E949A8BB4A6AE3 /* usericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFC6FF22F554707B0DFC466 /* usericon.png */; };
+		B8BFE2AD57174681B0BAA0B7 /* scanbarcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B967B052B1F4AA1AB0C2BA8 /* scanbarcode.png */; };
+		BBB6CC1A42E44564BEBD23FC /* comingsoon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BE93E2C95641998FE55ECA /* comingsoon.png */; };
+		BC5090961F74468C95F7EA2A /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEFF6B965C54A1996A8E0E1 /* logout.png */; };
+		BD752890E0FC41EDABAFBD0C /* messageunselected.png in Resources */ = {isa = PBXBuildFile; fileRef = C5162AF629AC4097A9329382 /* messageunselected.png */; };
+		BDF12BE932C14989A9D50162 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 20459AC1FA454999AF86C3DC /* add.png */; };
+		BDF36E464EC4411C9C78137E /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E53C9EA2304E65BB3E096D /* rightarrow.png */; };
+		C01434CEBDC8412D8DE93E37 /* glassfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = F08D25E7D17D4E4F895B26C1 /* glassfilled.png */; };
+		CC2EBECF5F7B444E9E545A00 /* ameyalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B4BF997D5B4530A7493E6E /* ameyalogo.png */; };
+		D15FC81A11E74F239367122F /* accountverified.png in Resources */ = {isa = PBXBuildFile; fileRef = F1FB0BEAB46144A988115C51 /* accountverified.png */; };
+		D6658BEADA514E62A1884104 /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CB94C7BBABC34CABAE826BB8 /* leftarrow.png */; };
+		D8498EA7A6B84FEDA636C785 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = C2595F3B2DC64A2EB5A0375B /* eye.png */; };
+		DE8975E0A8714685AB22B85F /* activityicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2157CDA080984D9CBEE9D579 /* activityicon.png */; };
+		E00A3DC0C8634F419EF84720 /* expandclose.png in Resources */ = {isa = PBXBuildFile; fileRef = D1142F45E7F2404886955583 /* expandclose.png */; };
+		E0508CC990044EF8A5D3F48B /* profileunselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5948F040D41140CFAC69A97C /* profileunselected.png */; };
+		E05B515F857942C6B5392D7F /* glassadd.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DDDE7FEEA94B8ABA82A526 /* glassadd.png */; };
+		E084F996FF654FC9BAE02493 /* homeunselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3AA2C726BF4B89B31E8971 /* homeunselected.png */; };
+		E60EF903E83C490AB89CC574 /* downarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B18521FCC643DB817AE815 /* downarrow.png */; };
+		E6AC5A307D34418681E67C72 /* droparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F8679304F5CC4C38B2122DB6 /* droparrow.png */; };
+		EC21C51FDC454717A2132A44 /* scanfood.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FCE10C5CE44CC963F963A /* scanfood.png */; };
+		ED49C65D75E242968013214C /* survey.png in Resources */ = {isa = PBXBuildFile; fileRef = C2945CB66F5147E284FBD888 /* survey.png */; };
+		F1880CAB3E2B4F91BD55E6CB /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = C68E2540631640F4BCF54652 /* close.png */; };
+		F28DF73DEF7445CFA225F0EB /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = D1D80811A5A64F9887ABFE59 /* loader.json */; };
+		F32F9E3499B9410CB9C8E514 /* expand.png in Resources */ = {isa = PBXBuildFile; fileRef = AE91CA61E9EF4F63BC090D8C /* expand.png */; };
+		FA8FD148E7254F6196157EB6 /* logowhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 982970441EAC4328B5523BD6 /* logowhite.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = ameya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C77A54A2CEE06AD00D39E40 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C54882F2D93CB2700FED2B5 /* lightbuzz_bodytracking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* ameyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ameyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ameyaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ameyaTests.m; sourceTree = "<group>"; };
+		039CE4A0A79A4B45A8301E8C /* termsicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = termsicon.png; path = ../assets/images/termsicon.png; sourceTree = "<group>"; };
+		03DDDE7FEEA94B8ABA82A526 /* glassadd.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = glassadd.png; path = ../assets/images/glassadd.png; sourceTree = "<group>"; };
+		042369AE7201422E841EFC62 /* food2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = food2.png; path = ../assets/images/food2.png; sourceTree = "<group>"; };
+		059845BE5D4D4BDCB831762F /* removetransparent.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = removetransparent.png; path = ../assets/images/removetransparent.png; sourceTree = "<group>"; };
+		06F7DA02E02545E78D937560 /* splashlight.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splashlight.png; path = ../assets/images/splashlight.png; sourceTree = "<group>"; };
+		0B3068AE432A4840B72A0518 /* lockicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = lockicon.png; path = ../assets/images/lockicon.png; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ameya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ameya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ameya/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ameya/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ameya/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ameya/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ameya/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ameya/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		177B8C8F2AD440E4BEFBE466 /* homeselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = homeselected.png; path = ../assets/images/homeselected.png; sourceTree = "<group>"; };
+		20459AC1FA454999AF86C3DC /* add.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = add.png; path = ../assets/images/add.png; sourceTree = "<group>"; };
+		2157CDA080984D9CBEE9D579 /* activityicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = activityicon.png; path = ../assets/images/activityicon.png; sourceTree = "<group>"; };
+		2513463325DABE0B845EB351 /* Pods_ameya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ameya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E53C9EA2304E65BB3E096D /* rightarrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = rightarrow.png; path = ../assets/images/rightarrow.png; sourceTree = "<group>"; };
+		29B4BF997D5B4530A7493E6E /* ameyalogo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ameyalogo.png; path = ../assets/images/ameyalogo.png; sourceTree = "<group>"; };
+		2BB620E21AF257E75CBAA134 /* Pods-ameya-ameyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ameya-ameyaTests.release.xcconfig"; path = "Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E10D55C395441E49B549ACC /* dashboardlock.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = dashboardlock.png; path = ../assets/images/dashboardlock.png; sourceTree = "<group>"; };
+		3185B03C449441B7AAE7658B /* statsselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = statsselected.png; path = ../assets/images/statsselected.png; sourceTree = "<group>"; };
+		31A340DA2EE648B5B382B711 /* messageselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = messageselected.png; path = ../assets/images/messageselected.png; sourceTree = "<group>"; };
+		375171D18AD64B719C159F1D /* interextralight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = interextralight.ttf; path = ../assets/fonts/interextralight.ttf; sourceTree = "<group>"; };
+		38FDEDFCF88142AD87F97A05 /* addfoodblack.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = addfoodblack.png; path = ../assets/images/addfoodblack.png; sourceTree = "<group>"; };
+		3A2DF2683C4A4A24A0BD35E3 /* star.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = star.png; path = ../assets/images/star.png; sourceTree = "<group>"; };
+		3EB18C20C6F7895153FC2B5C /* Pods-ameya-ameyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ameya-ameyaTests.debug.xcconfig"; path = "Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40B4235DB87840BC8FE2C71F /* tsp.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = tsp.png; path = ../assets/images/tsp.png; sourceTree = "<group>"; };
+		41B58F7C39AF4823AAE58915 /* heart.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = heart.png; path = ../assets/images/heart.png; sourceTree = "<group>"; };
+		4388DBE4E3E14AA098FA8A8D /* accountcreated.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = accountcreated.png; path = ../assets/images/accountcreated.png; sourceTree = "<group>"; };
+		442BDB932A1345D692579268 /* uparrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = uparrow.png; path = ../assets/images/uparrow.png; sourceTree = "<group>"; };
+		44B18521FCC643DB817AE815 /* downarrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = downarrow.png; path = ../assets/images/downarrow.png; sourceTree = "<group>"; };
+		48B72B5BC32B44F7A90AA5A9 /* palm.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = palm.png; path = ../assets/images/palm.png; sourceTree = "<group>"; };
+		4B510994846A4E12BBEAE254 /* heartlight.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = heartlight.png; path = ../assets/images/heartlight.png; sourceTree = "<group>"; };
+		4F79F47F5F7A44D19F465D45 /* interlight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = interlight.ttf; path = ../assets/fonts/interlight.ttf; sourceTree = "<group>"; };
+		55706DA02D1E81CA0034FCF5 /* BackgroundTaskManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
+		55706DA12D1E81CA0034FCF5 /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		55706DA42D1E81CC0034FCF5 /* ameya-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ameya-Bridging-Header.h"; sourceTree = "<group>"; };
+		5948F040D41140CFAC69A97C /* profileunselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = profileunselected.png; path = ../assets/images/profileunselected.png; sourceTree = "<group>"; };
+		5981C16E2746448F8EED3BDB /* interthin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = interthin.ttf; path = ../assets/fonts/interthin.ttf; sourceTree = "<group>"; };
+		5D3AA2C726BF4B89B31E8971 /* homeunselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = homeunselected.png; path = ../assets/images/homeunselected.png; sourceTree = "<group>"; };
+		5DFC6FF22F554707B0DFC466 /* usericon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = usericon.png; path = ../assets/images/usericon.png; sourceTree = "<group>"; };
+		66F0701C0DEF4ADB9D8BE164 /* newrecipe.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = newrecipe.png; path = ../assets/images/newrecipe.png; sourceTree = "<group>"; };
+		6B967B052B1F4AA1AB0C2BA8 /* scanbarcode.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = scanbarcode.png; path = ../assets/images/scanbarcode.png; sourceTree = "<group>"; };
+		6C54882C2D93CB1D00FED2B5 /* lightbuzz_bodytracking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lightbuzz_bodytracking.framework; path = "../node_modules/@azesmway/react-native-unity/ios/lightbuzz_bodytracking.framework"; sourceTree = SOURCE_ROOT; };
+		6C62110B2D2D0D810054B1DF /* HealthSyncEventEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthSyncEventEmitter.h; sourceTree = "<group>"; };
+		6C62110C2D2D0D810054B1DF /* HealthSyncEventEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthSyncEventEmitter.m; sourceTree = "<group>"; };
+		6C7E38B52CF48BE60078E364 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C967A5E2D65DD0900572EAC /* HealthKitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthKitManager.m; sourceTree = "<group>"; };
+		6C967A5F2D65DD0900572EAC /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		6E5DA886399440B5A6B6A3E8 /* apple.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = apple.png; path = ../assets/images/apple.png; sourceTree = "<group>"; };
+		7419E9FA039F4081A20293D5 /* interbold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = interbold.ttf; path = ../assets/fonts/interbold.ttf; sourceTree = "<group>"; };
+		7DC7D46DD4294E3BA5FF4D25 /* heartblue.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = heartblue.png; path = ../assets/images/heartblue.png; sourceTree = "<group>"; };
+		811F2D893FBA4695ACC8F53E /* statsunselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = statsunselected.png; path = ../assets/images/statsunselected.png; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ameya/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81ED6768589842D78122C36F /* searchglass.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = searchglass.png; path = ../assets/images/searchglass.png; sourceTree = "<group>"; };
+		835AA52A09874738B223FC74 /* glassempty.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = glassempty.png; path = ../assets/images/glassempty.png; sourceTree = "<group>"; };
+		842CB1F413D5433D886E5FE2 /* camera.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = camera.png; path = ../assets/images/camera.png; sourceTree = "<group>"; };
+		84460B34DE9F6F91787BA5F9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ameya/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		878C00B26144417F9CA2A75E /* saveicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = saveicon.png; path = ../assets/images/saveicon.png; sourceTree = "<group>"; };
+		89ACFF44757640CE927571FF /* servingguide.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = servingguide.png; path = ../assets/images/servingguide.png; sourceTree = "<group>"; };
+		8C00919982BA41FDA0464104 /* logouticon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logouticon.png; path = ../assets/images/logouticon.png; sourceTree = "<group>"; };
+		8F5A2FA097484D3A838D27F8 /* remove.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = remove.png; path = ../assets/images/remove.png; sourceTree = "<group>"; };
+		93C3136B84F842EA8D6B30F1 /* profile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = profile.png; path = ../assets/images/profile.png; sourceTree = "<group>"; };
+		95A968BAB6EA41B19AB066B5 /* fist.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fist.png; path = ../assets/images/fist.png; sourceTree = "<group>"; };
+		982970441EAC4328B5523BD6 /* logowhite.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logowhite.png; path = ../assets/images/logowhite.png; sourceTree = "<group>"; };
+		9C391F5F6FEC43CBBE2ACABC /* movement.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = movement.png; path = ../assets/images/movement.png; sourceTree = "<group>"; };
+		A01458341232405F9A0EC441 /* interregular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = interregular.ttf; path = ../assets/fonts/interregular.ttf; sourceTree = "<group>"; };
+		A10E13EB4D7F4C4B8B28EC11 /* addmyrecipe.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = addmyrecipe.png; path = ../assets/images/addmyrecipe.png; sourceTree = "<group>"; };
+		A20E99770B4347AA8AA77492 /* mic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mic.png; path = ../assets/images/mic.png; sourceTree = "<group>"; };
+		A36B0E01ADF44B85A3D4141E /* oz.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = oz.png; path = ../assets/images/oz.png; sourceTree = "<group>"; };
+		A7BB97E1CE514240ABEC171E /* galleyblack.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = galleyblack.png; path = ../assets/images/galleyblack.png; sourceTree = "<group>"; };
+		AE91CA61E9EF4F63BC090D8C /* expand.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = expand.png; path = ../assets/images/expand.png; sourceTree = "<group>"; };
+		B0F8F1CD20404BA9AFF069DE /* watch.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = watch.png; path = ../assets/images/watch.png; sourceTree = "<group>"; };
+		B30D3DB40F60457CB96CEAD5 /* intermedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = intermedium.ttf; path = ../assets/fonts/intermedium.ttf; sourceTree = "<group>"; };
+		B43D1456562C41FD93C28751 /* food1.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = food1.png; path = ../assets/images/food1.png; sourceTree = "<group>"; };
+		B8947C62E0B043158293887C /* addfood.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = addfood.png; path = ../assets/images/addfood.png; sourceTree = "<group>"; };
+		B8C0348873E34250B238531C /* rightarrowtransparent.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = rightarrowtransparent.png; path = ../assets/images/rightarrowtransparent.png; sourceTree = "<group>"; };
+		B95218B0C1A654ED02206D4F /* Pods-ameya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ameya.debug.xcconfig"; path = "Target Support Files/Pods-ameya/Pods-ameya.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEFF6B965C54A1996A8E0E1 /* logout.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = logout.png; path = ../assets/images/logout.png; sourceTree = "<group>"; };
+		C2595F3B2DC64A2EB5A0375B /* eye.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = eye.png; path = ../assets/images/eye.png; sourceTree = "<group>"; };
+		C2945CB66F5147E284FBD888 /* survey.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = survey.png; path = ../assets/images/survey.png; sourceTree = "<group>"; };
+		C4BE93E2C95641998FE55ECA /* comingsoon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = comingsoon.png; path = ../assets/images/comingsoon.png; sourceTree = "<group>"; };
+		C5162AF629AC4097A9329382 /* messageunselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = messageunselected.png; path = ../assets/images/messageunselected.png; sourceTree = "<group>"; };
+		C68BF55599CA4214B8D03CAE /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = home.png; path = ../assets/images/home.png; sourceTree = "<group>"; };
+		C68E2540631640F4BCF54652 /* close.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = close.png; path = ../assets/images/close.png; sourceTree = "<group>"; };
+		C85DFC5018664CBF8AEC7FCA /* email.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = email.png; path = ../assets/images/email.png; sourceTree = "<group>"; };
+		CB94C7BBABC34CABAE826BB8 /* leftarrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = leftarrow.png; path = ../assets/images/leftarrow.png; sourceTree = "<group>"; };
+		CD24A32A0B7F4EB5AF31FF3A /* intersemibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = intersemibold.ttf; path = ../assets/fonts/intersemibold.ttf; sourceTree = "<group>"; };
+		CF014AD52CA29BA800B764A6 /* ameya.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ameya.entitlements; path = ameya/ameya.entitlements; sourceTree = "<group>"; };
+		CF90C3132CA4226F002BE734 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
+		D1142F45E7F2404886955583 /* expandclose.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = expandclose.png; path = ../assets/images/expandclose.png; sourceTree = "<group>"; };
+		D1D80811A5A64F9887ABFE59 /* loader.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = loader.json; path = ../assets/lottie/loader.json; sourceTree = "<group>"; };
+		D7E7EEA794544F5DB894E273 /* notificationbell.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = notificationbell.png; path = ../assets/images/notificationbell.png; sourceTree = "<group>"; };
+		DC16831D289F995467DA8115 /* Pods-ameya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ameya.release.xcconfig"; path = "Target Support Files/Pods-ameya/Pods-ameya.release.xcconfig"; sourceTree = "<group>"; };
+		DE9FCE10C5CE44CC963F963A /* scanfood.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = scanfood.png; path = ../assets/images/scanfood.png; sourceTree = "<group>"; };
+		E3727BB4B5E84CB38624A2AA /* interextrabold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = interextrabold.ttf; path = ../assets/fonts/interextrabold.ttf; sourceTree = "<group>"; };
+		EA7EC640CE32495B9C230489 /* addrecipeweb.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = addrecipeweb.png; path = ../assets/images/addrecipeweb.png; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F08D25E7D17D4E4F895B26C1 /* glassfilled.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = glassfilled.png; path = ../assets/images/glassfilled.png; sourceTree = "<group>"; };
+		F1FB0BEAB46144A988115C51 /* accountverified.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = accountverified.png; path = ../assets/images/accountverified.png; sourceTree = "<group>"; };
+		F22B85CD6BDD4BA3B6D1D859 /* cup.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cup.png; path = ../assets/images/cup.png; sourceTree = "<group>"; };
+		F3ADB65BC54C45E39E415401 /* Pods_ameya_ameyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ameya_ameyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8679304F5CC4C38B2122DB6 /* droparrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = droparrow.png; path = ../assets/images/droparrow.png; sourceTree = "<group>"; };
+		FA645520A175405BA50CC85E /* food3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = food3.png; path = ../assets/images/food3.png; sourceTree = "<group>"; };
+		FBA8445A12EA4723836E0F0F /* tbsp.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = tbsp.png; path = ../assets/images/tbsp.png; sourceTree = "<group>"; };
+		FC8A22677B6146F5A8129843 /* splashon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splashon.png; path = ../assets/images/splashon.png; sourceTree = "<group>"; };
+		FCA23A563B8F44CA9CA13BD9 /* profileselected.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = profileselected.png; path = ../assets/images/profileselected.png; sourceTree = "<group>"; };
+		FD04BDF532DC4516AB5C4051 /* eyeoff.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = eyeoff.png; path = ../assets/images/eyeoff.png; sourceTree = "<group>"; };
+		FD37F30D4AE0421AA1254680 /* uparrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = uparrow.png; path = ../assets/images/uparrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC58F248470F75BE5BF9777 /* Pods_ameya_ameyaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C54882E2D93CB2700FED2B5 /* lightbuzz_bodytracking.framework in Frameworks */,
+				64AF234EFE004974177EFCE4 /* Pods_ameya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ameyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ameyaTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ameyaTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ameya */ = {
+			isa = PBXGroup;
+			children = (
+				6C967A5E2D65DD0900572EAC /* HealthKitManager.m */,
+				6C967A5F2D65DD0900572EAC /* HealthKitManager.swift */,
+				6C62110B2D2D0D810054B1DF /* HealthSyncEventEmitter.h */,
+				6C62110C2D2D0D810054B1DF /* HealthSyncEventEmitter.m */,
+				55706DA02D1E81CA0034FCF5 /* BackgroundTaskManager.m */,
+				55706DA12D1E81CA0034FCF5 /* BackgroundTaskManager.swift */,
+				CF014AD52CA29BA800B764A6 /* ameya.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				6C7E38B52CF48BE60078E364 /* GoogleService-Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				84460B34DE9F6F91787BA5F9 /* PrivacyInfo.xcprivacy */,
+				55706DA42D1E81CC0034FCF5 /* ameya-Bridging-Header.h */,
+			);
+			name = ameya;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C54882C2D93CB1D00FED2B5 /* lightbuzz_bodytracking.framework */,
+				CF90C3132CA4226F002BE734 /* hermes.xcframework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				2513463325DABE0B845EB351 /* Pods_ameya.framework */,
+				F3ADB65BC54C45E39E415401 /* Pods_ameya_ameyaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C77A5462CEE064300D39E40 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				442BDB932A1345D692579268 /* uparrow.png */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ameya */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ameyaTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				88B967281AF4474B84DEC81E /* Resources */,
+				6C77A5462CEE064300D39E40 /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ameya.app */,
+				00E356EE1AD99517003FC87E /* ameyaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B967281AF4474B84DEC81E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C68BF55599CA4214B8D03CAE /* home.png */,
+				29B4BF997D5B4530A7493E6E /* ameyalogo.png */,
+				C2595F3B2DC64A2EB5A0375B /* eye.png */,
+				FD04BDF532DC4516AB5C4051 /* eyeoff.png */,
+				177B8C8F2AD440E4BEFBE466 /* homeselected.png */,
+				5D3AA2C726BF4B89B31E8971 /* homeunselected.png */,
+				31A340DA2EE648B5B382B711 /* messageselected.png */,
+				C5162AF629AC4097A9329382 /* messageunselected.png */,
+				FCA23A563B8F44CA9CA13BD9 /* profileselected.png */,
+				5948F040D41140CFAC69A97C /* profileunselected.png */,
+				3185B03C449441B7AAE7658B /* statsselected.png */,
+				811F2D893FBA4695ACC8F53E /* statsunselected.png */,
+				7419E9FA039F4081A20293D5 /* interbold.ttf */,
+				E3727BB4B5E84CB38624A2AA /* interextrabold.ttf */,
+				375171D18AD64B719C159F1D /* interextralight.ttf */,
+				4F79F47F5F7A44D19F465D45 /* interlight.ttf */,
+				B30D3DB40F60457CB96CEAD5 /* intermedium.ttf */,
+				A01458341232405F9A0EC441 /* interregular.ttf */,
+				CD24A32A0B7F4EB5AF31FF3A /* intersemibold.ttf */,
+				5981C16E2746448F8EED3BDB /* interthin.ttf */,
+				4388DBE4E3E14AA098FA8A8D /* accountcreated.png */,
+				C85DFC5018664CBF8AEC7FCA /* email.png */,
+				982970441EAC4328B5523BD6 /* logowhite.png */,
+				93C3136B84F842EA8D6B30F1 /* profile.png */,
+				D1D80811A5A64F9887ABFE59 /* loader.json */,
+				BCEFF6B965C54A1996A8E0E1 /* logout.png */,
+				F1FB0BEAB46144A988115C51 /* accountverified.png */,
+				6E5DA886399440B5A6B6A3E8 /* apple.png */,
+				9C391F5F6FEC43CBBE2ACABC /* movement.png */,
+				D7E7EEA794544F5DB894E273 /* notificationbell.png */,
+				3A2DF2683C4A4A24A0BD35E3 /* star.png */,
+				C2945CB66F5147E284FBD888 /* survey.png */,
+				B0F8F1CD20404BA9AFF069DE /* watch.png */,
+				20459AC1FA454999AF86C3DC /* add.png */,
+				AE91CA61E9EF4F63BC090D8C /* expand.png */,
+				D1142F45E7F2404886955583 /* expandclose.png */,
+				03DDDE7FEEA94B8ABA82A526 /* glassadd.png */,
+				835AA52A09874738B223FC74 /* glassempty.png */,
+				F08D25E7D17D4E4F895B26C1 /* glassfilled.png */,
+				8F5A2FA097484D3A838D27F8 /* remove.png */,
+				B8947C62E0B043158293887C /* addfood.png */,
+				F8679304F5CC4C38B2122DB6 /* droparrow.png */,
+				A20E99770B4347AA8AA77492 /* mic.png */,
+				66F0701C0DEF4ADB9D8BE164 /* newrecipe.png */,
+				6B967B052B1F4AA1AB0C2BA8 /* scanbarcode.png */,
+				DE9FCE10C5CE44CC963F963A /* scanfood.png */,
+				81ED6768589842D78122C36F /* searchglass.png */,
+				842CB1F413D5433D886E5FE2 /* camera.png */,
+				B43D1456562C41FD93C28751 /* food1.png */,
+				042369AE7201422E841EFC62 /* food2.png */,
+				FA645520A175405BA50CC85E /* food3.png */,
+				41B58F7C39AF4823AAE58915 /* heart.png */,
+				059845BE5D4D4BDCB831762F /* removetransparent.png */,
+				25E53C9EA2304E65BB3E096D /* rightarrow.png */,
+				B8C0348873E34250B238531C /* rightarrowtransparent.png */,
+				A10E13EB4D7F4C4B8B28EC11 /* addmyrecipe.png */,
+				EA7EC640CE32495B9C230489 /* addrecipeweb.png */,
+				44B18521FCC643DB817AE815 /* downarrow.png */,
+				7DC7D46DD4294E3BA5FF4D25 /* heartblue.png */,
+				4B510994846A4E12BBEAE254 /* heartlight.png */,
+				FD37F30D4AE0421AA1254680 /* uparrow.png */,
+				38FDEDFCF88142AD87F97A05 /* addfoodblack.png */,
+				A7BB97E1CE514240ABEC171E /* galleyblack.png */,
+				06F7DA02E02545E78D937560 /* splashlight.png */,
+				FC8A22677B6146F5A8129843 /* splashon.png */,
+				C68E2540631640F4BCF54652 /* close.png */,
+				F22B85CD6BDD4BA3B6D1D859 /* cup.png */,
+				95A968BAB6EA41B19AB066B5 /* fist.png */,
+				A36B0E01ADF44B85A3D4141E /* oz.png */,
+				48B72B5BC32B44F7A90AA5A9 /* palm.png */,
+				89ACFF44757640CE927571FF /* servingguide.png */,
+				FBA8445A12EA4723836E0F0F /* tbsp.png */,
+				40B4235DB87840BC8FE2C71F /* tsp.png */,
+				2E10D55C395441E49B549ACC /* dashboardlock.png */,
+				CB94C7BBABC34CABAE826BB8 /* leftarrow.png */,
+				2157CDA080984D9CBEE9D579 /* activityicon.png */,
+				C4BE93E2C95641998FE55ECA /* comingsoon.png */,
+				0B3068AE432A4840B72A0518 /* lockicon.png */,
+				8C00919982BA41FDA0464104 /* logouticon.png */,
+				878C00B26144417F9CA2A75E /* saveicon.png */,
+				039CE4A0A79A4B45A8301E8C /* termsicon.png */,
+				5DFC6FF22F554707B0DFC466 /* usericon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B95218B0C1A654ED02206D4F /* Pods-ameya.debug.xcconfig */,
+				DC16831D289F995467DA8115 /* Pods-ameya.release.xcconfig */,
+				3EB18C20C6F7895153FC2B5C /* Pods-ameya-ameyaTests.debug.xcconfig */,
+				2BB620E21AF257E75CBAA134 /* Pods-ameya-ameyaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* ameyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ameyaTests" */;
+			buildPhases = (
+				2EB5303B61AF854097A031E8 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				B7F8BDEB14C7FB3A4C139129 /* [CP] Embed Pods Frameworks */,
+				2EA3E51FC908361DF0428908 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = ameyaTests;
+			productName = ameyaTests;
+			productReference = 00E356EE1AD99517003FC87E /* ameyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* ameya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ameya" */;
+			buildPhases = (
+				AC7F3D24936F9707C8224129 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				6C77A54A2CEE06AD00D39E40 /* Embed Frameworks */,
+				0FC92E0BADA5BEC1B806B47F /* [CP] Embed Pods Frameworks */,
+				DE9EB5B6031C0EDD0F8823C8 /* [CP] Copy Pods Resources */,
+				D3F6F83BF2450ADF8A1BC3D5 /* [CP-User] [RNFB] Core Configuration */,
+				04E96270684DFBDB741AA967 /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ameya;
+			productName = ameya;
+			productReference = 13B07F961A680F5B00A75B9A /* ameya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1610;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ameya" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ameya */,
+				00E356ED1AD99517003FC87E /* ameyaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A802114B60B7988EDD88DECD /* PrivacyInfo.xcprivacy in Resources */,
+				83B54510BCB3440795EFCBF9 /* home.png in Resources */,
+				CC2EBECF5F7B444E9E545A00 /* ameyalogo.png in Resources */,
+				D8498EA7A6B84FEDA636C785 /* eye.png in Resources */,
+				A5674445A7474E8391768D96 /* eyeoff.png in Resources */,
+				540AD3B18E544B86997A5586 /* homeselected.png in Resources */,
+				E084F996FF654FC9BAE02493 /* homeunselected.png in Resources */,
+				966AB7B8750B44D6837361FF /* messageselected.png in Resources */,
+				BD752890E0FC41EDABAFBD0C /* messageunselected.png in Resources */,
+				101769CF85514FAA998D232C /* profileselected.png in Resources */,
+				E0508CC990044EF8A5D3F48B /* profileunselected.png in Resources */,
+				505689BB23DF4A88A87480F1 /* statsselected.png in Resources */,
+				7DB48A626C284D9B8730E304 /* statsunselected.png in Resources */,
+				317F47B23B48412BAFEC34DA /* interbold.ttf in Resources */,
+				131EF820B7E54BB2885CE2DE /* interextrabold.ttf in Resources */,
+				6A1D171AB92B43B6800E7DE7 /* interextralight.ttf in Resources */,
+				3F288388297D42938A42390C /* interlight.ttf in Resources */,
+				5B0E650FD3F44C8A967CC31B /* intermedium.ttf in Resources */,
+				9D0C8C3AF4FB44548568C993 /* interregular.ttf in Resources */,
+				1FA16D2315214937ADD365DB /* intersemibold.ttf in Resources */,
+				0CBFB6EB12C14C6C9EF0D095 /* interthin.ttf in Resources */,
+				4EFD873CCC4E4C7ABA7CD5C0 /* accountcreated.png in Resources */,
+				5BCED180FEC94CD5B278455D /* email.png in Resources */,
+				FA8FD148E7254F6196157EB6 /* logowhite.png in Resources */,
+				3F75D3EA455E4CB4AB2FA4CC /* profile.png in Resources */,
+				F28DF73DEF7445CFA225F0EB /* loader.json in Resources */,
+				BC5090961F74468C95F7EA2A /* logout.png in Resources */,
+				D15FC81A11E74F239367122F /* accountverified.png in Resources */,
+				9872B82A904747228A5B0767 /* apple.png in Resources */,
+				532CD11541034F6EB7C0C57B /* movement.png in Resources */,
+				0C36F1AE4EE049748F640D41 /* notificationbell.png in Resources */,
+				6B0CECCC03B54F2999728929 /* star.png in Resources */,
+				ED49C65D75E242968013214C /* survey.png in Resources */,
+				5C24B24E72C14FEC9F51246E /* watch.png in Resources */,
+				BDF12BE932C14989A9D50162 /* add.png in Resources */,
+				F32F9E3499B9410CB9C8E514 /* expand.png in Resources */,
+				E00A3DC0C8634F419EF84720 /* expandclose.png in Resources */,
+				E05B515F857942C6B5392D7F /* glassadd.png in Resources */,
+				7428FE3B596B443AB8B147FE /* glassempty.png in Resources */,
+				C01434CEBDC8412D8DE93E37 /* glassfilled.png in Resources */,
+				2B5ACF6548AC44D0B04FECE3 /* remove.png in Resources */,
+				5F65E81FAA9142E7887B280E /* addfood.png in Resources */,
+				E6AC5A307D34418681E67C72 /* droparrow.png in Resources */,
+				0CC888942F234658B3490D35 /* mic.png in Resources */,
+				14CD86C7988A4AF6B961CB57 /* newrecipe.png in Resources */,
+				B8BFE2AD57174681B0BAA0B7 /* scanbarcode.png in Resources */,
+				EC21C51FDC454717A2132A44 /* scanfood.png in Resources */,
+				756179C4AD61495EBEC436C9 /* searchglass.png in Resources */,
+				5759E7D238AE4463BDC19C8E /* camera.png in Resources */,
+				25E22E645BDE4F18A59B1533 /* food1.png in Resources */,
+				3E4F459BD02644889C9636B5 /* food2.png in Resources */,
+				9E490C28F93F49FC9339CC98 /* food3.png in Resources */,
+				0C74ACDFEA9A43378C23F6CA /* heart.png in Resources */,
+				52ECC610DB1F4210B87DEFB8 /* removetransparent.png in Resources */,
+				BDF36E464EC4411C9C78137E /* rightarrow.png in Resources */,
+				4DE43B880551478E8DEFDEF0 /* rightarrowtransparent.png in Resources */,
+				A525D2410ABD4759AF3FE6FA /* uparrow.png in Resources */,
+				1B9B3653C9B647688F195AD9 /* addmyrecipe.png in Resources */,
+				71E0B319441943BABF8ADC08 /* addrecipeweb.png in Resources */,
+				E60EF903E83C490AB89CC574 /* downarrow.png in Resources */,
+				6C7E38B62CF48BE60078E364 /* GoogleService-Info.plist in Resources */,
+				879BE89268D141B2B83DF95B /* heartblue.png in Resources */,
+				723E28AAF6F2492295A59D14 /* heartlight.png in Resources */,
+				72CD9D46D9C64711A30132B5 /* uparrow.png in Resources */,
+				708B7DDDE24B4CF3A172E199 /* addfoodblack.png in Resources */,
+				1059B585EAF948DF8B47E45A /* galleyblack.png in Resources */,
+				4BE7CF693FB64022AA34B389 /* splashlight.png in Resources */,
+				20054BFB07F1486B88C83154 /* splashon.png in Resources */,
+				F1880CAB3E2B4F91BD55E6CB /* close.png in Resources */,
+				109D6C13EBBF4D2BB9A139C1 /* cup.png in Resources */,
+				2F84A9059F05410C8F10D866 /* fist.png in Resources */,
+				484D8DE97AE447BA9F4BE590 /* oz.png in Resources */,
+				61FFD22F1EB5406EBC649FC8 /* palm.png in Resources */,
+				163B942246DD4C26A3DE7CDD /* servingguide.png in Resources */,
+				9044A4A454994375A9105445 /* tbsp.png in Resources */,
+				47A3AF3A880847B8A85B1D94 /* tsp.png in Resources */,
+				9124BB863A8C4ACA9FD47966 /* dashboardlock.png in Resources */,
+				D6658BEADA514E62A1884104 /* leftarrow.png in Resources */,
+				DE8975E0A8714685AB22B85F /* activityicon.png in Resources */,
+				BBB6CC1A42E44564BEBD23FC /* comingsoon.png in Resources */,
+				72F03635B9AA42EA86691B6A /* lockicon.png in Resources */,
+				0F6FCF625D55479AA0D8736C /* logouticon.png in Resources */,
+				0DDE1A42C6AA4067B8C5AF39 /* saveicon.png in Resources */,
+				4C23D85B661044C699E237DC /* termsicon.png in Resources */,
+				AAFC777019E949A8BB4A6AE3 /* usericon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		04E96270684DFBDB741AA967 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		0FC92E0BADA5BEC1B806B47F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya/Pods-ameya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya/Pods-ameya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ameya/Pods-ameya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA3E51FC908361DF0428908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB5303B61AF854097A031E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ameya-ameyaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7F3D24936F9707C8224129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ameya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F8BDEB14C7FB3A4C139129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ameya-ameyaTests/Pods-ameya-ameyaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F6F83BF2450ADF8A1BC3D5 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n##########################################################################\n##########################################################################\n#\n#  NOTE THAT IF YOU CHANGE THIS FILE YOU MUST RUN pod install AFTERWARDS\n#\n#  This file is installed as an Xcode build script in the project file\n#  by cocoapods, and you will not see your changes until you pod install\n#\n##########################################################################\n##########################################################################\n\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_analytics_storage\n  _ANALYTICS_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_analytics_storage\")\n  if [[ $_ANALYTICS_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_ANALYTICS_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_storage\n  _ANALYTICS_AD_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_storage\")\n  if [[ $_ANALYTICS_AD_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_user_data\n  _ANALYTICS_AD_USER_DATA=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_user_data\")\n  if [[ $_ANALYTICS_AD_USER_DATA ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_USER_DATA\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_USER_DATA\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		DE9EB5B6031C0EDD0F8823C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya/Pods-ameya-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ameya/Pods-ameya-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ameya/Pods-ameya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* ameyaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C967A602D65DD0900572EAC /* HealthKitManager.swift in Sources */,
+				6C967A612D65DD0900572EAC /* HealthKitManager.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				6C62110D2D2D0D810054B1DF /* HealthSyncEventEmitter.m in Sources */,
+				55706DA22D1E81CA0034FCF5 /* BackgroundTaskManager.swift in Sources */,
+				55706DA32D1E81CA0034FCF5 /* BackgroundTaskManager.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* ameya */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB18C20C6F7895153FC2B5C /* Pods-ameya-ameyaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ameyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ameya.app/ameya";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB620E21AF257E75CBAA134 /* Pods-ameya-ameyaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = ameyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ameya.app/ameya";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95218B0C1A654ED02206D4F /* Pods-ameya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ameya/ameya.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = CXH3F4FBL6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ameya/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ameya;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 13.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.ameya.ios;
+				PRODUCT_NAME = ameya;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ameya-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC16831D289F995467DA8115 /* Pods-ameya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ameya/ameya.entitlements;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = CXH3F4FBL6;
+				INFOPLIST_FILE = ameya/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ameya;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 13.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.ameya.ios;
+				PRODUCT_NAME = ameya;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ameya-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ameyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ameya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ameya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

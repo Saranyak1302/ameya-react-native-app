@@ -1,0 +1,112 @@
+diff --git a/node_modules/react-native-subtitles/index.d.ts b/node_modules/react-native-subtitles/index.d.ts
+index da03010..76f0d99 100644
+--- a/node_modules/react-native-subtitles/index.d.ts
++++ b/node_modules/react-native-subtitles/index.d.ts
+@@ -1,11 +1,14 @@
+ import React from 'react';
+-import { ViewStyle, TextStyle } from 'react-native';
++import { ViewStyle, TextStyle ,TextProps} from 'react-native';
+ /**
+  * * subtitles interface
+  * * @param { selectedsubtitle: { file } } url of the subtitle
+  * * @param { currentTime } time in miliseconds from the video playback
+  * * @param { containerStyle: {} } style for the container of the subtitles component
+  * * @param { textStyle: {} } style for the text of the subtitle component
++ * * @param { textProps: {} } additional props for the Text component
++ * * @param { onChangeText } callback when the subtitle text changes
++
+  */
+ export interface SubtitlesProps {
+     selectedsubtitle: {
+@@ -14,6 +17,9 @@ export interface SubtitlesProps {
+     currentTime: number;
+     containerStyle?: ViewStyle;
+     textStyle?: TextStyle;
++    textProps?: TextProps; // New property to allow passing additional Text props
++    onChangeText?: (newText: string) => void; // Added callback method
++
+ }
+ /**
+  * * subtitle interface
+diff --git a/node_modules/react-native-subtitles/index.js b/node_modules/react-native-subtitles/index.js
+index d89952a..01ab7b6 100644
+--- a/node_modules/react-native-subtitles/index.js
++++ b/node_modules/react-native-subtitles/index.js
+@@ -1,7 +1,7 @@
+ import React, { useEffect, useState } from 'react';
+-import { View, Text } from 'react-native';
++import { View, Text, ScrollView } from 'react-native';
+ import subtitleParser from './utils/subtitle-parser';
+-const Subtitles = ({ selectedsubtitle, currentTime, containerStyle = {}, textStyle = {}, }) => {
++const Subtitles = ({ selectedsubtitle, currentTime, containerStyle = {}, textStyle = {}, textProps = {} ,onChangeText }) => {
+     /**
+      * * First phase parses the subtitle url to an array of objects with the subtitle interface schema
+      * * method for parsing varies depending on the file extension (vtt or srt)
+@@ -30,6 +30,9 @@ const Subtitles = ({ selectedsubtitle, currentTime, containerStyle = {}, textSty
+                     part: '',
+                 };
+                 if (currentTime >= subtitle.start && currentTime <= subtitle.end) {
++                    if (onChangeText) {
++                        onChangeText(subtitle.part.trim()); // Invoke the callback
++                    }
+                     setText(subtitle.part.trim());
+                     return;
+                 }
+@@ -40,11 +43,15 @@ const Subtitles = ({ selectedsubtitle, currentTime, containerStyle = {}, textSty
+                     start = mid + 1;
+                 }
+             }
++            if (onChangeText) {
++                onChangeText(''); // Invoke the callback
++            }
+             return setText('');
+         }
+     }, [currentTime, subtitles]);
+     return (<View style={containerStyle}>
+-      {text ? (<Text testID="react-native-subtitles-text" style={{
++        <ScrollView>
++      {text ? (<Text testID="react-native-subtitles-text" maxFontSizeMultiplier={1.1} numberOfLines={3} {...textProps} style={{
+                 fontSize: 25,
+                 color: 'white',
+                 textAlign: 'center',
+@@ -57,7 +64,21 @@ const Subtitles = ({ selectedsubtitle, currentTime, containerStyle = {}, textSty
+                 ...textStyle,
+             }}>
+           {text}
+-        </Text>) : null}
++        </Text>) : <Text testID="react-native-subtitles-text" maxFontSizeMultiplier={1.1} numberOfLines={3}  {...textProps} style={{
++                fontSize: 25,
++                color: 'white',
++                textAlign: 'center',
++                alignSelf: 'center',
++                padding: 25,
++                backgroundColor: 'rgba(0,0,0,.6)',
++                textShadowColor: '#000',
++                textShadowOffset: { width: 2, height: 2 },
++                textShadowRadius: 2,
++                ...textStyle,
++            }}>
++          ...
++        </Text>}
++        </ScrollView>
+     </View>);
+ };
+ export default Subtitles;
+diff --git a/node_modules/react-native-subtitles/utils/subtitle-parser.js b/node_modules/react-native-subtitles/utils/subtitle-parser.js
+index eb35d95..03b41d2 100644
+--- a/node_modules/react-native-subtitles/utils/subtitle-parser.js
++++ b/node_modules/react-native-subtitles/utils/subtitle-parser.js
+@@ -3,7 +3,12 @@ import vttToJson from 'vtt-to-json';
+ const { default: srtParser2 } = require('srt-parser-2');
+ import timeToSeconds from './time-to-seconds';
+ const subtitleParser = async (subitleUrl) => {
+-    const { data: subtitleData } = await axios.get(subitleUrl);
++    const cacheBuster = `?_=${new Date().getTime()}`;
++    const { data: subtitleData } = await axios.get(subitleUrl + cacheBuster, {
++        headers: {
++            'Cache-Control': 'no-cache',
++        },
++    });
+     const subtitleType = subitleUrl.split('.')[subitleUrl.split('.').length - 1];
+     const result = [];
+     if (subtitleType === 'srt') {

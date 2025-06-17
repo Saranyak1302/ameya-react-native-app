@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "568522284612",
+    "project_id": "ameya-62ed5",
+    "storage_bucket": "ameya-62ed5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568522284612:android:e7066ced40c4755a2d6611",
+        "android_client_info": {
+          "package_name": "ca.ameya.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpkXPbNBi7iA--cfj8Usm2tsEM1S3HeQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

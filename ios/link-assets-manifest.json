@@ -1,0 +1,333 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/interbold.ttf",
+      "sha1": "327abbf74a5d71ffa8d888d976234cb11dabf194"
+    },
+    {
+      "path": "assets/fonts/interextrabold.ttf",
+      "sha1": "e4d712ef0e61b3104b2327fe127d95d281a49308"
+    },
+    {
+      "path": "assets/fonts/interextralight.ttf",
+      "sha1": "de38e36cf083996e3e44a2792055f33f04beb7db"
+    },
+    {
+      "path": "assets/fonts/interlight.ttf",
+      "sha1": "ca9d1cbe741fb0ad6f9e469f2b390a79629d10ad"
+    },
+    {
+      "path": "assets/fonts/intermedium.ttf",
+      "sha1": "3b9f3360ca812f2076db0bfc8bed4cfdd951e74f"
+    },
+    {
+      "path": "assets/fonts/interregular.ttf",
+      "sha1": "b9984093c0b2b612da5e58e4d4e1ba8c255353dc"
+    },
+    {
+      "path": "assets/fonts/intersemibold.ttf",
+      "sha1": "ee81756dc9685877077aae9027708aa84bc56027"
+    },
+    {
+      "path": "assets/fonts/interthin.ttf",
+      "sha1": "c63bb2618f2f823b077100c23ca5cd4e64fe99a3"
+    },
+    {
+      "path": "assets/images/accountcreated.png",
+      "sha1": "1fad92d383cd2002acf66b83737f744c2393667e"
+    },
+    {
+      "path": "assets/images/accountverified.png",
+      "sha1": "21e86d323048d25dabb5460a1207bd1e77f6c118"
+    },
+    {
+      "path": "assets/images/activityicon.png",
+      "sha1": "c89569fc68adf1e17f9c3b0ef85d082620a8e169"
+    },
+    {
+      "path": "assets/images/add.png",
+      "sha1": "6ca8fd82cec720995d5144c0dc07b61ed07e8b20"
+    },
+    {
+      "path": "assets/images/addfood.png",
+      "sha1": "b0d65c7bd36f34f8a7db3ab16972906e4d6c62b6"
+    },
+    {
+      "path": "assets/images/addfoodblack.png",
+      "sha1": "71d3d932b3da8ba45d98553ddc0bfd0e03f36eff"
+    },
+    {
+      "path": "assets/images/addmyrecipe.png",
+      "sha1": "dce5864626c347282666a2874a5f5f03699c0eca"
+    },
+    {
+      "path": "assets/images/addrecipeweb.png",
+      "sha1": "e7ed64083091773a09a55e70150274b1d25f061a"
+    },
+    {
+      "path": "assets/images/ameyalogo.png",
+      "sha1": "efdb573f7491b74bb21fffc161d91de576b871ce"
+    },
+    {
+      "path": "assets/images/apple.png",
+      "sha1": "f5b5f39d8de2a2f4a07348506cb0f361ca98e162"
+    },
+    {
+      "path": "assets/images/camera.png",
+      "sha1": "2dc12b2fe9170ce03e78783066edc9c26c6df289"
+    },
+    {
+      "path": "assets/images/close.png",
+      "sha1": "25a606cd80d9e2043617989994f3e8fddda5c58f"
+    },
+    {
+      "path": "assets/images/comingsoon.png",
+      "sha1": "8773912a904d533def9239d34ae749ce5aac1d82"
+    },
+    {
+      "path": "assets/images/cup.png",
+      "sha1": "c3aa4831b5e65d6b0b88cc1d1e1c9f77b0f8fb58"
+    },
+    {
+      "path": "assets/images/dashboardlock.png",
+      "sha1": "45e82eb630382935013aa1dd4607fe97728631c3"
+    },
+    {
+      "path": "assets/images/downarrow.png",
+      "sha1": "497be9df3ba52bc03949b665a9f4dbb3af5cda3f"
+    },
+    {
+      "path": "assets/images/droparrow.png",
+      "sha1": "6bbdc40ed612a8592d87ad6a83c55db23ea55f13"
+    },
+    {
+      "path": "assets/images/email.png",
+      "sha1": "c80e45d46ae4ee1fede1518aedd01f5f2cb1a8b0"
+    },
+    {
+      "path": "assets/images/expand.png",
+      "sha1": "f97977a9c70b9a4f7b1a243fd4e9984d1f58eafe"
+    },
+    {
+      "path": "assets/images/expandclose.png",
+      "sha1": "7500eb162438d86b3201b9a2887bfaec782d1c2f"
+    },
+    {
+      "path": "assets/images/eye.png",
+      "sha1": "a456e6432e19a904a9211444bfc2a77a4ff8f90d"
+    },
+    {
+      "path": "assets/images/eyeoff.png",
+      "sha1": "68b4aabab2aed3a22ef37c1efdcae7a4c20a7e1e"
+    },
+    {
+      "path": "assets/images/fist.png",
+      "sha1": "621f4a11beca09ef0ef4734c4eccb6095066f6eb"
+    },
+    {
+      "path": "assets/images/food1.png",
+      "sha1": "b0830995c46b085881a556dbeecc2d5cba215259"
+    },
+    {
+      "path": "assets/images/food2.png",
+      "sha1": "e4bcaa0072c61c0e67d24ea615c868ab4b269d4c"
+    },
+    {
+      "path": "assets/images/food3.png",
+      "sha1": "7e989ec6e927d9b1f135b3c7bba71c542fd7e0fa"
+    },
+    {
+      "path": "assets/images/galleyblack.png",
+      "sha1": "e70fd5153170498e58438e9dae77f18da449460d"
+    },
+    {
+      "path": "assets/images/glassadd.png",
+      "sha1": "ae08e7f7cb6755d41a69fd82832c4124a4617dc2"
+    },
+    {
+      "path": "assets/images/glassempty.png",
+      "sha1": "3559f880150bc649f540e68ff6c209d585ee0860"
+    },
+    {
+      "path": "assets/images/glassfilled.png",
+      "sha1": "eebfa8e83d7e38ee9c8cda56e14ecb9d08d61068"
+    },
+    {
+      "path": "assets/images/heart.png",
+      "sha1": "796cfa69c6e65e742916ad9fe0d1c7dba50dd73d"
+    },
+    {
+      "path": "assets/images/heartblue.png",
+      "sha1": "77b99cb11fa3ac6c33aebf71256beff3173790fc"
+    },
+    {
+      "path": "assets/images/heartlight.png",
+      "sha1": "e7109536fe84e9f7381bc942354f9abae5e37e57"
+    },
+    {
+      "path": "assets/images/home.png",
+      "sha1": "536e5afff7b3743a6b8cc0258b9d3203d1c68cc9"
+    },
+    {
+      "path": "assets/images/homeselected.png",
+      "sha1": "56ba722889a7a6559756b8cbf8f363992e9d9ff4"
+    },
+    {
+      "path": "assets/images/homeunselected.png",
+      "sha1": "f6adc6751af925f4ec21b95abe72e2a360bb51a1"
+    },
+    {
+      "path": "assets/images/leftarrow.png",
+      "sha1": "b0042cb0e9aad2f810a53c3bd12c8084ed727925"
+    },
+    {
+      "path": "assets/images/lockicon.png",
+      "sha1": "13b1282676f58756914d6eb54789222482bfc2c6"
+    },
+    {
+      "path": "assets/images/logout.png",
+      "sha1": "69edb916d85506aa9db4c55d0ff7f53e58f8d159"
+    },
+    {
+      "path": "assets/images/logouticon.png",
+      "sha1": "e2d019e80bb8c1fc4815aba3a8e8ed1f4584674c"
+    },
+    {
+      "path": "assets/images/logowhite.png",
+      "sha1": "02ffe8af0ceb7e0df6ad9520c4df81a602921944"
+    },
+    {
+      "path": "assets/images/messageselected.png",
+      "sha1": "d66d21f67b0037f0facd66402156c08c573701c2"
+    },
+    {
+      "path": "assets/images/messageunselected.png",
+      "sha1": "4f231443f2dfdfafa506e3b4b485cc598b27a6ed"
+    },
+    {
+      "path": "assets/images/mic.png",
+      "sha1": "056848a54c1c8946547253aba8a8362a53677cb9"
+    },
+    {
+      "path": "assets/images/movement.png",
+      "sha1": "44d3103a57b8b4dcce6326236b21e223246cbba4"
+    },
+    {
+      "path": "assets/images/newrecipe.png",
+      "sha1": "c8e748d84f33b8811da3135bb33bc9677020c12e"
+    },
+    {
+      "path": "assets/images/notificationbell.png",
+      "sha1": "a117cb0be5964830ad8cd13b4847b2672efb2b4e"
+    },
+    {
+      "path": "assets/images/oz.png",
+      "sha1": "40972460ceaa74ade9f6a8f5fdbcb1f0488dd43d"
+    },
+    {
+      "path": "assets/images/palm.png",
+      "sha1": "2ed0ff981f81ebf62a66cf832ae022794ee285ed"
+    },
+    {
+      "path": "assets/images/profile.png",
+      "sha1": "e8d0569bbb01b636cc202d0f18dd44a48507fea8"
+    },
+    {
+      "path": "assets/images/profileselected.png",
+      "sha1": "4a3db2e1f813fcf0309830aaba92232be44ec7a8"
+    },
+    {
+      "path": "assets/images/profileunselected.png",
+      "sha1": "e35229f2d5ef4214f7304b16ff6abc1ff95aef9a"
+    },
+    {
+      "path": "assets/images/remove.png",
+      "sha1": "c705e1caa1eff56c453f89b845fdc1415460b577"
+    },
+    {
+      "path": "assets/images/removetransparent.png",
+      "sha1": "89479d91ca7b6f3b26ed3cf67750fb1c8d823793"
+    },
+    {
+      "path": "assets/images/rightarrow.png",
+      "sha1": "a1b8f57d26f4ac63589bfb485e02167ff01ee0a5"
+    },
+    {
+      "path": "assets/images/rightarrowtransparent.png",
+      "sha1": "f5bd0a5b2640dfc5b82960639c5b7701f4456b16"
+    },
+    {
+      "path": "assets/images/saveicon.png",
+      "sha1": "a166cc2064829c7b1ebea4a78c07a24a022656be"
+    },
+    {
+      "path": "assets/images/scanbarcode.png",
+      "sha1": "7632477896c97908226c82a24c7e0951092651b9"
+    },
+    {
+      "path": "assets/images/scanfood.png",
+      "sha1": "7f250545e1c92e7ac393fcee43575066037fb4fb"
+    },
+    {
+      "path": "assets/images/searchglass.png",
+      "sha1": "8188493bda7c5d33a5dd6bc69e8b89b4ecfc04a2"
+    },
+    {
+      "path": "assets/images/servingguide.png",
+      "sha1": "617d4166d33175eb286e83504af80bfc43dcf77f"
+    },
+    {
+      "path": "assets/images/splashlight.png",
+      "sha1": "1fe1f7a53a83062a94ae31fe0d72d43833b817f3"
+    },
+    {
+      "path": "assets/images/splashon.png",
+      "sha1": "dddf4fb0a829bf53bd128e2dc184ba0d0b27e621"
+    },
+    {
+      "path": "assets/images/star.png",
+      "sha1": "7dfdd6434a644afafcbf9c910dd1c1ee70e43ec2"
+    },
+    {
+      "path": "assets/images/statsselected.png",
+      "sha1": "6da14ebcf2bd71426bbe27555683e84f3a5d4b71"
+    },
+    {
+      "path": "assets/images/statsunselected.png",
+      "sha1": "1b1427b25f7ef3fcebad00502516f77403c20a92"
+    },
+    {
+      "path": "assets/images/survey.png",
+      "sha1": "4ef7f0f62ba92cdb63837882ff00525a7d8792af"
+    },
+    {
+      "path": "assets/images/tbsp.png",
+      "sha1": "62f00601060d8e17a08cc0da7b1c500c50032460"
+    },
+    {
+      "path": "assets/images/termsicon.png",
+      "sha1": "0fb856ee2da3aedd82c4a7161f14865f21564c82"
+    },
+    {
+      "path": "assets/images/tsp.png",
+      "sha1": "bb2d6f9a50713e7f4daa2304d4078eff7c084662"
+    },
+    {
+      "path": "assets/images/uparrow.png",
+      "sha1": "df20adf7bb86cd95d5635a8256667302f898a555"
+    },
+    {
+      "path": "assets/images/usericon.png",
+      "sha1": "3092d0ef817806bb8205b962d411f436dfb26920"
+    },
+    {
+      "path": "assets/images/watch.png",
+      "sha1": "58b3e710ad925007dae919d32ba59d3f59269daf"
+    },
+    {
+      "path": "assets/lottie/loader.json",
+      "sha1": "88e090ec641d008910d454389d46096e89d4cc08"
+    }
+  ]
+}
